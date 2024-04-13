@@ -13,25 +13,22 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Sharks <span>Shoes</span></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" onclick="openMenu()"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
-                      </li>  
-                    </ul>
-                  </div>
+                  <header>
+                    <button id="nav-toggle" aria-expanded="false">
+                      <span class="sr-only"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <nav>
+                      <ul class="navigation">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="shop.html">Shop</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </header>
                 </div>
               </nav>
         </div>
@@ -86,6 +83,124 @@
 
     </section>
     <!--end hero section-->
-    <script src="JS/index.js"></script>
+    <!--featured products-->
+    <section id="feature">
+        <div class="container-fluid">
+            <div class="title">
+                <h2>Featured <span>Products</span></h2>
+                <p>Sharks Shoes Collections</p>
+            </div>
+           <div class="row  products">
+            <div class="col-3 product-1">
+                <div class="image">
+                    <img width="100%" height="440vh" src="images/airmaxgrey.png" alt="">
+                </div>
+                <div class="Name ">
+                    <p>Air Max 90 Black Yellow cool Grey</p>
+                </div>
+                <div class="price">
+                    <p>ksh.4500</p>
+                    <img src="icons/cart.png" alt="cart">
+                </div>
+            </div>
+            <div class="col-3 product-1">
+                <div class="image">
+                    <img width="100%" height="440vh" src="images/j1red.png" alt="">
+                </div>
+                <div class="Name ">
+                    <p>Jordan 1 Black red and white</p>
+                </div>
+                <div class="price">
+                    <p>ksh.1800</p>
+                    <img src="icons/cart.png" alt="cart">
+                </div>
+            </div>
+            <div class="col-3 product-1">
+                <div class="image">
+                    <img width="100%" height="440vh" src="images/j4yellow.png" alt="">
+                </div>
+                <div class="Name ">
+                    <p>Jordan 4 Black and Yellow</p>
+                </div>
+                <div class="price">
+                    <p>ksh.4500</p>
+                    <img src="icons/cart.png" alt="cart">
+                </div>
+            </div>
+            <div class="col-3 product-1">
+                <div class="image">
+                    <img width="100%" height="440vh" src="images/jordan9white.png" alt="">
+                </div>
+                <div class="Name ">
+                    <p>Jordan 9 black and White</p>
+                </div>
+                <div class="price">
+                    <p>ksh.4500</p>
+                    <img src="icons/cart.png" alt="cart">
+                </div>
+                
+            </div>
+           </div>
+        </div>
+
+    </section>
+
+    <!--end featured products-->
+    <!--About sections-->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="About-us">
+                <div class="title">
+                    <h2>About <span>Us</span></h2>
+                    <p>Sharks Shoes Collections</p>
+                </div>
+                <div class="row block">
+                    <div class="col-6">
+                        <div class="about-logo">
+                            <h4>Sharks <span>Shoes</span> Collections</h4>
+                            <img src="img/logo.png" alt="">
+
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="about-info">
+                            <h4>About <span>Sharks</span></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repudiandae molestias deleniti enim maxime? Quis obcaecati voluptas aspernatur dolor ea facilis velit. Id non consequatur, asperiores soluta pariatur deserunt porro! <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae provident similique et! Facilis veniam explicabo deserunt quis laborum aperiam alias modi doloremque debitis adipisci, vero, eos id cumque nisi.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+        </div>
+   
+    </section>
+    <!--end about sections -->
+    <!--contact sections-->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="contacts">
+                <div class="title">
+                    <h4>Contact <span>Us</span></h4>
+                    <p>Sharks Shoes Collections</p>
+                </div>
+                <div class="infor">
+                    <img src="img/logo.png" alt="">
+                    <div class="online">
+                        <p>Email: <a href="">sharks@gmil.com</a></p>
+                        <p>Adress: <a href="">Kiambu Road</a></p>
+                        <p>Phone: <a href="">+254115314344</a></p>
+                    </div>
+                  
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!--end contact sections -->
+    <script defer src="JS/index.js"></script>
 </body>
 </html>
