@@ -1,5 +1,4 @@
 // get list 
- 
 const navToggle = document.getElementById('nav-toggle');
 const navigation = document.querySelector('.navigation');
 
@@ -20,7 +19,7 @@ const buybutton = document.getElementById('buy-button')
 const price = document.getElementById('price')
 const availableshoes =document.getElementById('remaining')
 
-
+// list shoes model in the available shoes is shop.html
 function getModel(){
     fetch('https://sharks-db.onrender.com/shoes')
       .then(res => res.json())
@@ -37,7 +36,7 @@ function getModel(){
       )
 }
 getModel()
-
+// displaying all products 
 function displayProduct(item){
   const products = document.getElementById(item.id)
   products.addEventListener('click', event => {
@@ -50,6 +49,7 @@ function displayProduct(item){
   })
 
 }
+// dispalying the first product
 function firstProduct(item) {
   picture.src = item.image
     title.textContent = item.model
