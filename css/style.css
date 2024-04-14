@@ -625,12 +625,48 @@ span{
    .online {
     margin-top: 5vh;
     margin-left: 2vh;
+   }
+   #nav-toggle {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+  }
+  #nav-toggle {
+      display: none;
+  }
+  
+    .navigation {
+      display: flex;
+  }
+  .stock{
+    display: block;
+  }
+  .stock .title h4{
+    width: 40vh;
+    font-size: 4vh;
+    margin-left: 5vh;
+  }
+  #list {
+    width: 60vh;
+  }
+  #picture {
+    width: 45vh;
+    margin-top: 3vh;
+    
+  }
+
+  
+ 
 }
 
 
 
 
-}
+
+
+
 
 @media (max-width:390px){
     #nav-toggle {
