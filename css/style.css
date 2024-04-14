@@ -14,6 +14,7 @@
 .navigation a{
     text-decoration: none;
     color: black;
+
 }
 .nav-item{
     margin-left: 5vh;
@@ -73,9 +74,7 @@ span{
     transform: translateY(-10px) rotate(-45deg);
   }
   
-  .navigation {
-    display: none;
-  }
+  
   
   .navigation li {
     list-style: none;
@@ -396,25 +395,7 @@ span{
 
 /* media querry */
 @media (max-width:280px){
-    #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
+   
       
     
     .logo img {
@@ -528,27 +509,7 @@ span{
   }
 }
 @media (max-width:360px){
-      #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
-      
-    
+     
     .logo img {
         width: 20vh;
         margin-left: .4vh;
@@ -637,20 +598,7 @@ span{
     margin-top: 5vh;
     margin-left: 2vh;
    }
-   #nav-toggle {
-    display: none;
-  }
-
-  .navigation {
-    display: flex;
-  }
-  #nav-toggle {
-      display: none;
-  }
-  
-    .navigation {
-      display: flex;
-  }
+ 
   .stock{
     display: block;
   }
@@ -677,26 +625,6 @@ span{
  
 }
 @media (max-width:390px){
-      #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
-      
     .logo img {
         width: 20vh;
         margin-left: .4vh;
@@ -808,28 +736,6 @@ span{
   }
 }
 @media (max-width:412px){
-    
-      #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
-      
-      
     
     .logo img {
         width: 20vh;
@@ -943,27 +849,6 @@ span{
 
 }
 @media (max-width:414px){
-    #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
-      
-    
     .logo img {
         width: 20vh;
         margin-left: .4vh;
@@ -1074,27 +959,7 @@ span{
     margin-top: 3vh;
   }
 }
-@media (max-width:430px){
-    #nav-toggle {
-        display: block;
-      }
-      .navigation {
-        margin-left: 5vh;
-        height: 2vh;
-      }
-    
-      .navigation li{
-        display: flex;
-        font-size: 1vh;
-        margin-left: 1vh;
-        margin-right: 0 ;
-        padding-top:  0;
-
-      }
-      #nav-toggle {
-          display: none;
-        }
-      
+@media (max-width:430px){    
     .logo img {
         width: 20vh;
         margin-left: .4vh;
@@ -1206,40 +1071,13 @@ span{
     margin-top: 3vh;
   }
 }
-@media (min-width: 768px) {
-    #nav-toggle {
-      display: none;
-    }
-  
-    .navigation {
-      display: flex;
-    }
-    #nav-toggle {
-        display: none;
-      }
-    
-      .navigation {
-        display: flex;
-      }
-    
+
    
-}
+
 @media (width:820px){
-    #nav-toggle {
-        display: none;
-      }
-    
-      .navigation {
-        margin-left: 5vh;
-        display: flex;
-      }
-    
-    .logo img {
-        width: 20vh;
-        margin-left: .4vh;
-    }
    
-    .welcome h1 {
+   
+  .welcome h1 {
         margin-left: 7vh;
         font-size: 2.5vh;
         padding-top: 1.8vh;
@@ -1345,6 +1183,116 @@ span{
     margin-top: 3vh;
   }
 }
+
+@media (width:768px){
+   
+   
+    .welcome h1 {
+          margin-left: 7vh;
+          font-size: 2.5vh;
+          padding-top: 1.8vh;
+      }
+      .left{
+          margin-left: 8vh;
+          margin-top: 2vh;
+      }
+      .left h4 , .left h2 , .left h1{
+          font-size: 3.5vh;
+          margin-bottom: 1vh;
+      }
+      .left p{
+          font-size: 1.7vh;
+      }
+      .left .btn{
+          margin-top: 1vh;
+      }
+      .list h3 {
+          font-size: 4vh;
+          color: green;
+          margin-bottom: 3vh;
+          margin-left: 18vh;
+      }
+      .title h2 {
+          font-size: 4vh;
+          margin-top: 12vh;
+      }
+      .product-1{
+          width: 50%;
+          margin-top: 2vh;
+          margin-left: auto;
+          margin-right: auto;
+        
+          
+      }
+      
+  
+      .price img{
+          margin-left: 14vh;
+      }
+      .about-logo{
+          width: 65vh;
+          margin-top: 2vh;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .about-logo img{
+          width: 60vh;
+          margin-left: 2vh;
+      } 
+      .about-logo h4{
+          font-size: 4vh;
+      }
+     .block{
+      display: block;
+     }
+     .about-info{
+      width: 65vh;
+      margin-top: 2vh;
+      margin-left: auto;
+      margin-right: auto
+     }
+     .about-info p{
+      width: 60vh;
+      margin-top: 2vh;
+      margin-left: auto;
+      margin-right: auto
+     }
+     .infor{
+      margin-left: 2vh;
+      display: block;
+     }
+     .infor img {
+      width: 60vh;
+      background-color: rgb(208, 220, 208);
+      border: 1px solid green;
+      border-radius: 2vh;
+     }
+     .online {
+      margin-top: 5vh;
+      margin-left: 2vh;
+  }
+  .stock{
+      display: block;
+    }
+    .stock .title h4{
+      width: 40vh;
+      font-size: 4vh;
+      margin-left: 5vh;
+    }
+    #list {
+      width: 60vh;
+    }
+    #picture {
+      width: 45vh;
+      margin-top: 3vh;
+  
+    }
+    .des{
+      width: 45vh;
+      margin-left: 2vh;
+      margin-top: 3vh;
+    }
+  }
 @media (width:853px){
     .logo img {
         width: 20vh;

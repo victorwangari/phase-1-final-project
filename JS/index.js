@@ -58,8 +58,3 @@ function firstProduct(item) {
     description.textContent = item.description
     availableshoes.textContent= item.capacity - item.sold 
 } 
-//   cart section 
-const cart = document.getElementById('cart')
-cart.addEventListener('click', event => {
-  alert ('the product is out of stock')
-})
