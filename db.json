@@ -36,8 +36,8 @@
       {
         "id": 4,
         "type": "Sneakers",
-        "model": "Jordan 9",
-        "description": "Jordan 9 gray and black",
+        "model": "Jordan 4",
+        "description": "Jordan 4 white and yellow",
         "capacity": 30,
         "sold": 10,
         "price": "ksh.3000",
@@ -58,8 +58,8 @@
       {
         "id": 6,
         "type": "Sneakers",
-        "model": "Jordan 4",
-        "description": "Jordan 4 white and yellow",
+        "model": "Jordan 9",
+        "description": "Jordan 9 gray and black",
         "capacity": 30,
         "sold": 10,
         "price": "ksh.4500",

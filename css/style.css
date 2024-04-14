@@ -14,6 +14,7 @@
 .navigation a{
     text-decoration: none;
     color: black;
+
 }
 .nav-item{
     margin-left: 5vh;
@@ -73,9 +74,7 @@ span{
     transform: translateY(-10px) rotate(-45deg);
   }
   
-  .navigation {
-    display: none;
-  }
+  
   
   .navigation li {
     list-style: none;
@@ -599,7 +598,7 @@ span{
     margin-top: 5vh;
     margin-left: 2vh;
    }
-   
+ 
   .stock{
     display: block;
   }
