@@ -1,4 +1,4 @@
-// get list 
+// get navlist 
 const navToggle = document.getElementById('nav-toggle');
 const navigation = document.querySelector('.navigation');
 
@@ -19,7 +19,7 @@ const buybutton = document.getElementById('buy-button')
 const price = document.getElementById('price')
 const availableshoes =document.getElementById('remaining')
 
-// list shoes model in the available shoes is shop.html
+// get list of shoes model in the available shoes in shop.html
 function getModel(){
     fetch('https://sharks-db.onrender.com/shoes')
       .then(res => res.json())
@@ -58,3 +58,5 @@ function firstProduct(item) {
     description.textContent = item.description
     availableshoes.textContent= item.capacity - item.sold 
 } 
+
+ 
